@@ -18,6 +18,8 @@ app.use(helmet());
 app.use(
   cors({
     origin: (origin, callback) => {
+        console.log("CORS origin:", origin); // ← add this
+
       // Allow requests with no origin (curl, mobile apps)
       if (!origin) return callback(null, true);
       if (env.cors.origins.includes(origin)) return callback(null, true);
