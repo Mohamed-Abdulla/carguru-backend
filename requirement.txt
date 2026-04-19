@@ -1,0 +1,65 @@
+Take-Home Assignment
+Role: Software Engineer — AI-Native · CarDekho Group
+The Brief
+A car research platform has a dataset of cars — makes, models, variants, prices, specs,
+mileage, safety ratings, and user reviews. Buyers come to the platform confused: there are
+too many options and no easy way to figure out which car is right for them.
+Build something that helps a car buyer go from “I don’t know what to buy” to “I’m confident
+about my shortlist.”
+That’s the entire brief. It’s deliberately vague. What you choose to build, what you cut, and
+how you scope it — that’s the test.
+Hard Constraints
+1. 2. 3. Working web app. It must run — either deployed somewhere (Vercel, Railway, Netlify,
+whatever) or with a single-command local setup ( docker compose up , npm run dev ,
+etc.). If we can’t run it in under 2 minutes, it doesn’t count.
+Full-stack. There must be a frontend a human can interact with and a backend that
+does something non-trivial (persistence, computation, aggregation — not just a static
+page).
+Screen recording is mandatory. Record your entire build process — terminal, editor,
+browser, everything. We want to see how you use your tools (Claude Code, Cursor,
+Copilot, vanilla vim, whatever). Unedited, real-time or lightly fast-forwarded. Upload to
+Loom, Google Drive, or YouTube (unlisted). This is the most important deliverable.
+4. Time-box: 2-3 hours of actual work. Don’t spend a weekend on this. We’re evaluating
+how much you ship in a constrained window, not how polished you can make it with
+unlimited time.
+Deliverables
+Send us:
+Link to the screen recording (most important)
+GitHub repo (public or invite us)
+Live URL or clear run instructions
+A README that answers:
+What did you build and why? What did you deliberately cut?
+What’s your tech stack and why did you pick it?
+What did you delegate to AI tools vs. do manually? Where did the tools help most?
+Where did they get in the way?
+If you had another 4 hours, what would you add?
+What We’re Evaluating
+Transparent about this — no gotchas.
+Product decisions (35%) Did you make smart scoping calls? Did you build the highest-
+value thing first? Does the thing you shipped actually help a confused car buyer make
+progress? We’d rather see a tight, opinionated MVP than a half-finished kitchen sink.
+Agentic tool usage (30%) This is why the screen recording matters. We want to see: How
+do you prompt? How do you break down work for the AI? Do you blindly accept output or do
+you review and course-correct? How do you recover when the tool gives you garbage? Do
+you know when to stop using the tool and just write code?
+Code quality & architecture (20%) Is the code readable and sensible? Are there obvious
+patterns or is it spaghetti? We’re not looking for perfection — we’re looking for evidence
+that you understand what good code looks like even when AI wrote most of it. Bonus if you
+set up linting, types, or tests — but only if it was fast, not ceremonial.
+Execution speed & shipping instinct (15%) How much did you actually get done in 2-3
+hours? Is it deployed? Does it work end-to-end? We value “it works and it’s live” over “it’s
+architecturally beautiful but I ran out of time.”
+What We Don’t Care About
+Which language or framework you used
+Whether the UI is pixel-perfect
+Whether you wrote tests for everything
+How many years of React experience you have
+Whether you know anything about the automotive industry
+Anti-Cheating Note
+We know AI tools can build this entire thing. That’s the point — we want you to use them.
+The screen recording exists not to catch cheating but to see how you think and work. There
+is no way to cheat on this assignment. There is only your process, and it either impresses us
+or it doesn’t.
+Timeline
+You have 48 hours from receiving this assignment to submit your deliverables. The actual
+build should take 2-3 hours — the rest is buffer for your schedule.
